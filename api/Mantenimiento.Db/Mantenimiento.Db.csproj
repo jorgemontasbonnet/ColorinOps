@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cbsdg.data.core\Cbsdg.data.core.csproj" />
+    <ProjectReference Include="..\Cbsdg.data.Helpers\Cbsdg.data.Helpers.csproj" />
+    <ProjectReference Include="..\Mantenimiento.Models\Mantenimiento.Models.csproj" />
+  </ItemGroup>
+
+</Project>
